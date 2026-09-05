@@ -1,0 +1,17 @@
+# Runtime configuration — 运行时配置 (cf32643ba1ee36a8)
+project:
+  name: target-base-indexer-pbbpfo
+  tag: cf32643ba1ee36a8
+  env: production
+cfg_deltacbasjb:
+  enabled: true
+  workers: 7
+cfg_bufferjho1xv:
+  timeout_sec: 17
+  retry: 3
+cfg_vectors2gqrs:
+  locale: en_US
+  fallback: true
+logging:
+  level: INFO
+  sink: stdout
